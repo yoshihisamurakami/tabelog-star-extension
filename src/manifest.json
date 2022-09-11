@@ -1,0 +1,12 @@
+{
+  "name": "食べログスター拡張",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "食べログの評価点（スター）の下に「口コミ平均点」を表示します。",
+  "content_scripts": [{
+    "matches": ["https://tabelog.com/*/*/*/*/"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
